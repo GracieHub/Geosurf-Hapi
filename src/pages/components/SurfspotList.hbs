@@ -1,0 +1,18 @@
+<table class="table is-fullwidth">
+  <thead>
+      <th>Surf Spot Name</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+      <th>Type Of Wave</th>
+  </thead>
+  <tbody>
+    {{#each surfspots}}
+      <tr>
+        <td>{{name}}</td>
+        <td>{{latitude}}</td>
+        <td>{{longitude}}/td>
+        <td> {{typeOfWave}} </td>
+      </tr>
+    {{/each}}
+  </tbody>
+</table>
